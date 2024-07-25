@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="index.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Student portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Sriya Balanagu</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="https://drive.google.com/file/d/1LdrvMceVE_qMQMpN8itdRgjsO8j66ydW/view?usp=drive_link" class="nav__link">Resume</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HEY</span><br>FELLAS.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/pro.jpg" alt="" >
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Sriya Balanagu</h2>
+                        <span class="about__profession">Web designer</span>
+                        <p class="about__text"> am a dedicated web developer with a passion for creating dynamic and responsive websites. With a strong foundation in front-end and back-end development, I thrive on turning ideas into functional, user-friendly digital experiences. My skills include HTML, CSS, JavaScript, and various web development frameworks.
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/sriya-balanagu/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/Sriya-balanagu" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://medium.com/@balanagusriya" class="about__social-icon"><i class='bx bxl-medium' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">MongoDB</span>
+                        <span class="skills__name">React</span>
+                        <span class="skills__name">ExpressJS</span>
+                        <span class="skills__name">NodeJS</span>
+
+                        
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Photoshop</span>
+
+
+                         
+                        <h3 class="skills__subtitle">Languages</h3>
+                        <span class="skills__name">C</span>
+                        <span class="skills__name">CPP</span>
+                        <span class="skills__name">Python</span>
+
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="" height="200px">
+                    </div>
+                </div>
+            </section>
+
+            <!--=====Project=====-->
+
+            <section id="work">
+                <h2 class="section-title">Projects:</h2>
+                <div class="section-container">
+                  <div class="site">
+                    <div class="site-image">
+                      <img src="https://www.codewithrandom.com/wp-content/uploads/2023/05/Copy-of-codewithrandom-12-1.png">
+                    </div>
+                    <div class="site-text">
+                      <h3>Expense Tracker</h3>
+                      <p class="site-info">
+                        An expense tracker is a tool or application used to monitor and manage personal or business spending. It allows users to record expenses, categorize them, set budgets, and analyze spending patterns over time.
+                      </p>
+                      <ul class="site-stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Js</li>
+                      </ul>
+                      <a href="" class="site-link" target="_blank"
+                        rel="noopener noreferrer">repository</a>
+                    </div>
+                  </div>
+                  <div class="site">
+                    <div class="site-image">
+                      <img src="assets/img/exp.png"
+                        alt="/">
+                    </div>
+                    <div class="site-text">
+                      <h3> Banking Management using C++
+                    </h3>
+                      <p class="site-info">
+                        A bank management system implemented in C++ is a software solution that facilitates the efficient functioning of a bank by automating various operations. It typically includes functionalities for managing customer accounts, handling transactions, ensuring security, and generating reports.                       </p>
+                      <ul class="site-stack">
+                        <li>CPP</li>
+                      </ul>
+                      <a href="" class="site-link" target="_blank"
+                        rel="noopener noreferrer">repository</a>
+                    </div>
+                  </div>
+                  <div class="site">
+                    <div class="site-image">
+                      <img src="https://www.cloudtalk.io/wp-content/uploads/2024/03/blog-illustration.svg"
+                        alt="/" >
+                    </div>
+                    <div class="site-text">
+                      <h3>Generating Telephone Numbers using C</h3>
+                      <p class="site-info">
+                        Implemented a C program to algorithmically generate unique
+                        telephone numbers, emphasizing algorithm development and data
+                        validation.</p>
+                      <ul class="site-stack">
+                        <li>C</li>
+                      </ul>
+                      <a href="" class="site-link" target="_blank"
+                        rel="noopener noreferrer">repository</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">balanagusriya@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 7330709748</span>
+
+                        <h3 class="contact__subtitle">ADDRESS</h3>
+                        <span class="contact__text">bikavolu,AP</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="send" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Sriya Balanagu</h2>
+                    <p class="footer__text">I'm Sriya Balanagu and this is my portflio webpage</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://github.com/Sriya-balanagu" class="footer__social"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.instagram.com/sriyyyaaaa_?igsh=OHg4cnprNmhoMXRs" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://x.com/Balanagusriya" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+  
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="index.js"></script>
+    </body>
+</html>
